@@ -585,7 +585,8 @@ header.site-header nav {
 	position: relative;
 	margin: 0 10px 10px 0;
 	text-decoration: none;
-	-webkit-transition: color 0.2s;
+	// -webkit-transition: color 0.2s;
+    @include transit(all,.25s, ease-in-out)
 }
 
 .tag::before {
